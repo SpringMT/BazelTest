@@ -1,14 +1,8 @@
 #include <ctime>
 #include <iostream>
 
-std::string get_greet(const std::string& who) {
-  return "Hello " + who;
-}
-
-void print_localtime() {
-  std::time_t result = std::time(nullptr);
-  std::cout << std::asctime(std::localtime(&result));
-}
+#include "lib/hello-time.h"
+#include "main/hello-greet.h"
 
 int main(int argc, char** argv) {
   std::string who = "world";
