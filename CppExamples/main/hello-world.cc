@@ -2,7 +2,7 @@
 #include <iostream>
 
 #include "lib/hello-time.h"
-#include "main/hello-greet.h"
+#include "lib/hello-greet.h"
 
 int main(int argc, char** argv) {
   std::string who = "world";
